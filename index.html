@@ -214,6 +214,14 @@
       cursor: pointer;
    
    }
+   .order {
+       background: #1f5fbb;
+       color: white;
+       height: 50px;
+       width: 90%;
+       border-radius: 40px;
+       border: 3px solid lightblue;
+   }
   </style>
 </head>
 <body>
@@ -226,7 +234,7 @@
         <span class="highlight-blue">&</span>
         <span class="highlight-red">WEB-DEVELOPING!!</span>
       </h1>
-      <p class="developer-name">BUILDER & DEVELOPER: HAFEZ MD. ASIR ABRAR KHAN</p>
+      <p class="developer-name">BUILDER & DEVELOPER: MD ASIR ABRAR KHAN</p>
     </header>
 
     <hr class="hr">
@@ -235,6 +243,10 @@
       <button class="btn" onclick="about()">About</button>
       <button class="btn" onclick="project()">Projects</button>
       <button class="btn" onclick="contact()">Contact</button>
+  <a href="https://7930navid.github.io/Asirweb-form/">
+      <button class="order">
+          Order Now For Your Custom Website
+      </button></a>
     </div>
   </div>
 
@@ -268,7 +280,7 @@
 
     <p>
       This website is more than just a portfolio—it’s a digital canvas where creativity meets technology. Built and nurtured by 
-      <strong>Hafez Md. Asir Abrar Khan</strong>, a passionate web developer, this platform serves as a dynamic archive of experiments, 
+      <strong>Md Asir Abrar Khan</strong>, a passionate web developer, this platform serves as a dynamic archive of experiments, 
       innovative projects, and personal reflections. Every line of code here tells a story—of curiosity, challenges, and the joy of building.
     </p>
 
@@ -323,7 +335,7 @@
 
     function massage() {
       insertHTML(`
-        <button onclick="contact()" class="back-btn">×</button><br><br>
+        <button onclick="location.reload()" class="back-btn">×</button><br><br>
         <form onsubmit="return false;">
           <p style="color: green; font-weight: bold; font-size: 20px; text-align: left;">Text here your message:</p>
           <textarea id="sendMessage" class="textMessage" placeholder="Text here..."></textarea><br><br>
